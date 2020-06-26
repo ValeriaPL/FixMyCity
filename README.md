@@ -1,8 +1,6 @@
-FixMyStreet Mobile App
+FixMyCity Mobile App
 ----------------------
-
-This is the FixMyStreet mobile app for reporting problems to an instance of the
-FixMyStreet platform - https://github.com/mysociety/fixmystreet.
+A mobile app based on mSociety's FixMyStreet platform.
 
 **You *must* have your FixMyStreet webserver up and running first:** the mobile app
 ultimately sends reports via that. It is not a standalone service. For more information
