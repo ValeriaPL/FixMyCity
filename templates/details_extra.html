@@ -1,0 +1,20 @@
+<div data-role="header" data-position="fixed">
+        <a data-rel="back" data-icon="arrow-l" class="ui-btn-left">[% loc('Back') %]</a>
+        <h1>[% loc('Further Details') %]</h1>
+        <% if (CONFIG.SKIP_CONFIRM_REPORT) { %>
+            <a id="next" class="ui-btn-right">[% loc('Submit') %]</a>
+        <% } else { %>
+            <a id="next" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">[% loc('Next') %]</a>
+        <% } %>
+</div>
+<div data-role="content">
+    <div id="form-disabled-banner">
+        <div id="form-disabled-message"></div>
+        <div id="start-new-report-wrapper">
+            <a data-role="button" id="start-new-report" data-theme="a">[% loc('Start new report') %]</a>
+        </div>
+    </div>
+    <div data-enhance="false">
+        <%= category_extras_html %>
+    </div>
+</div>
